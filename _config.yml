@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Gao Lab @ U of Utah"
 title_separator          : "-"
 name                     : &name "Weilu Gao"
-description              : &description "Assistant Professor, University of Utah"
+description              : &description "Assistant Professor, ECE, University of Utah"
 # url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 url                      : https://weilugao.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -82,14 +82,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  # name             : "Your Sidebar Name"
+  name             : "Dr. Weilu Gao"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  # bio              : "Your biography for the left-hand sidebar"
+  # location         : "Location"
+  bio              : "Assistant Professor, ECE, University of Utah"
+  location         : "Salt Lake City, Utah"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  # googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=5v99W3kAAAAJ&hl=en"
+  email            : "weilu.gao@utah.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -98,14 +102,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "weilugao"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
