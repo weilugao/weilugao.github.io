@@ -211,20 +211,11 @@ defaults:
   # _pages
   - scope:
       path: ""
-      type: pages
+      type: people
     values:
       layout: single
       author_profile: true
   # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
   - scope:
       path: ""
       type: publications
@@ -233,10 +224,19 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: pedagogy
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: projects
     values:
       layout: single
       author_profile: true
@@ -245,7 +245,7 @@ defaults:
   # _talks
   - scope:
       path: ""
-      type: talks
+      type: presents
     values:
       layout: talk
       author_profile: true
@@ -261,7 +261,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Denver # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
